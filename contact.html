@@ -1,92 +1,69 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en-us">
 
 <head>
-	<title>Juan Ossa's Contact Page</title>
-	<!-- <link rel="stylesheet" type="text/css" href="assets\css\reset.css"> -->
-	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <title>Contact | Juan Ossa</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-	<header class="top-container">
-		<div class="nav">
-			<div>
-				<li id="name"><strong>Juan Ossa</strong></li>
-				<li id="nav-links"><a href="contact.html">Contact</a></li>
-				<li id="nav-links"><a href="portfolio.html">Portfolio</a></li>
-				<li id="nav-links"><a href="index.html">About</a></li>
-			</div>
-		</div>
-	</header>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Juan Ossa</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-	<div id="main-background">
-		<div class="main-body">
-			<section class="about">
+<div class="wrapper">
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
 
-				<h1 id="main-contact">Contact</h1>
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
 
-				 <div class="mailme">
-				    <form action="mailto:juanmiguel.ossa@gmail.com" method="get" enctype="text/plain">
-				      			        
-				        <li>
-				          <p class="left">
-				            <label for="name">Name</label><br>
-				            <input type="text" name="name" placeholder="John Smith" />
-				          </p>
-				        </li>
-				        
-				        <li>
-				          <p>
-				            <label for="email">Email</label><br>
-				            <input type="email" name="email" placeholder="example@gmail.com" />
-				          </p>
-				        </li>        
-				        
-				        <li>
-				          <label for="message">Message</label><br>
-				          <textarea cols="80" rows="15" name="message"></textarea>
-				        </li>
-				        
-				        <li>
-				          <input class="btn btn-submit" type="submit" value="Submit" />
-				        </li>
-				        
-				      
-				    </form>  
-				  </div>
+    </section>
 
-			</section>
-			<section class="contact-info">
-				<h3 id="contact-me">Connect with Me</h3>
-				<div class="contact-icons">
-						<li class="icon">
-						<a href="mailto:juanmiguel.ossa@gmail.com" target="_top">
-							<img src="assets\images\email.png" alt="email" style="width:42px;height:42px;border:0;">
-						</a>
-					</li>
-					<li class="icon">
-						<a href="https://github.com/CLMBN" target="_target">
-							<img src="assets\images\github.png" alt="github" style="width:42px;height:42px;border:0;">
-						</a>
-					</li>
-					<li class="icon">
-						<a href="https://www.linkedin.com/in/juanmiguelossa" target="_target">
-							<img src="assets\images\linkedin.png" alt="Linkedin" style="width:42px;height:42px;border:0;">
-						</a>
-					</li>
-					<li class="icon">
-						<a href="http://stackoverflow.com/users/7305063/juan-ossa" target="_target">
-							<img src="assets\images\stack2.png" alt="stackoverflow" style="width:42px;height:42px;border:0;">
-						</a>
-					</li>
-				</div>
-			</section>
-		</div>
-	</div>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
 
-	<footer id="footer">
-		<div>&copy; Copyright 2017 Juan Ossa</div>
-	</footer>
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
+    </section>
+  </div>
+</div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 Your Name
+    </div>
+  </footer>
 </body>
+
 </html>
