@@ -351,22 +351,22 @@ input[type=submit] {
       padding-top: 0px;
     }
     .container {
-      max-width: 700px;
+      max-width: 700px auto;
     }
     
     #masthead {
       position: relative;
-      width: 700px;
+      width: 700px auto;
     }
 
    #logo {
-      width: 700px;
+      width: 700px auto;
     }
 
     nav {
 
       clear: both;
-      width: 700px;
+      width: 700px auto;
     }
 
     nav a {
@@ -374,7 +374,7 @@ input[type=submit] {
       display: inline-block;
     }
     .main-section {
-      max-width: 700px;
+      max-width: 700px auto;
     }
 
     .auth-image {
