@@ -356,17 +356,17 @@ input[type=submit] {
     
     #masthead {
       position: relative;
-      width: 700px auto;
+      width: 700px;
     }
 
    #logo {
-      width: 700px auto;
+      width: 700px;
     }
 
     nav {
 
       clear: both;
-      width: 700px auto;
+      width: 700px;
     }
 
     nav a {
