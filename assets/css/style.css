@@ -225,27 +225,18 @@ h3,
 
   .portfolio-image img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
   }
 
   .caption-text {
-    opacity: 0;
     position: absolute;
-    width: 100%;
+    width: 90%;
     color: white;
-    left: 0;
     bottom: 40px;
-    padding: 1em;
     font-weight: 700;
     z-index: 2;
-    -webkit-transition: opacity .3s ease-in-out;
-    transition: opacity .3s ease-in-out;
     background-color: #4aaaa5;
-  }
-
-  .portfolio-image:hover .caption-text {
-    opacity: 1;
   }
 
 /*contact page*/
@@ -371,7 +362,7 @@ input[type=submit] {
 
     nav a {
       margin: 10px 65px 10px 65px;
-      display: inline-block;
+      display: inline;
     }
     .main-section {
       max-width: 700px auto;
@@ -388,5 +379,7 @@ input[type=submit] {
     .portfolio-image {
     height: auto;
     width: 100%;
+    margin: 0px;
+    padding: 0;
     }
 }
